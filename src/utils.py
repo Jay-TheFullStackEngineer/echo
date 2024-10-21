@@ -169,7 +169,6 @@ def get_path_to_folder(folder_type: Literal["webcam", "screenshot"]) -> Path:
         Args:
             folder_type (Literal["webcam", "screenshot"]): The type of folder to retrieve the path for.
 
-        Returns:
             Path: The path to the specified folder.
 
         Raises:
